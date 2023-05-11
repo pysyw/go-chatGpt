@@ -1,0 +1,11 @@
+API_KEY = "YOUR_API_KEY";
+ENV = "development"
+
+[Logger]
+STATIC_BASE_PATH = "/"
+FILENAME = "ccc"
+DEFAULT_DIVISION = "size"
+[Logger.DIVISION_TIME]
+RotationTime = "30ms"
+MAX_AGE = "60s"
+
